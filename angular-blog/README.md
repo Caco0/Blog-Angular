@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
+Based on the dribbble project by: [Dwinawan](dwinawan.com/blog) on [Dribbble](https://dribbble.com/shots/18089191-Blog-Layout)
+
+#### This project demonstrates all the skills acquired during [DIO's](https://www.dio.me/) Angular+Java Fullstack course in the Angular module
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
