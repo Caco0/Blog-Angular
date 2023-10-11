@@ -1,0 +1,29 @@
+.small_card--container {
+  display: flex;
+  justify-content: flex-start;
+}
+.small_card--news {
+  max-width: 75%;
+  flex-direction: row;
+  margin: 2rem 2rem 0 1rem;
+}
+.small_card--image {
+  width: 25%;
+}
+img {
+  margin: 2rem 0.825rem 0 0;
+  width: 100%;
+}
+.small_card--date_content {
+  font-size: 0.825rem;
+  color: grey;
+}
+.small_card--title_content {
+  font-size: 2.2rem;
+}
+.small_card--notice_content {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgb(143, 142, 142);
+  margin-right: 2rem;
+}
