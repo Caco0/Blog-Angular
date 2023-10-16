@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  .big_card--title_content {
+    font-size: 1.3rem;
+  }
+  .big_card--notice_content {
+    font-size: 0.95em;
+  }
+  img {
+    box-shadow: 7px 4px 5px 0px rgba(255, 255, 255, 0.26);
+  }
+}

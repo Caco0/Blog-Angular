@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  .small_card--title_content {
+    font-size: 1rem;
+  }
+  .small_card--notice_content {
+    display: none;
+  }
+  img {
+    min-width: 100px;
+  }
+}
