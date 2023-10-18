@@ -1,23 +1,19 @@
 <div class="container--big_card">
   <div class="big_card--image">
     <img
-      src="../../../assets/img/SAM_1302.JPG"
+      src=" {{ photoCover }} "
       alt="fotografia de pintura de barco ancorado na praia"
     />
   </div>
   <div class="big_card--date">
-    <p class="big_card--date_content">terça 10/9/2023</p>
+    <p class="big_card--date_content">{{ cardDate }}</p>
   </div>
   <div class="big_card--title">
-    <h2 class="big_card--title_content">Pintura: Ancorado na Praia</h2>
+    <h2 class="big_card--title_content">{{ cardTitle }}</h2>
   </div>
   <div class="big_card--notice">
     <p class="big_card--notice_content">
-      Obra de arte confeccionada na técnica Óleo sob Tela do artista Angelo
-      Dametto. A pintura retrata o cotidiano do nordeste brasileiro retratando
-      uma manhã onde um barco de pesca está ancorado na praia após voltar da
-      pesca, é uma visão artística sob a ótica do artista que busca representar
-      sua visão unica.
+      {{ cardDescription }}
     </p>
   </div>
 </div>
