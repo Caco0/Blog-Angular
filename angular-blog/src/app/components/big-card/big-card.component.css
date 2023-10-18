@@ -11,23 +11,23 @@ img {
 
 .big_card--date_content {
   margin: 0.325rem 2rem 0 2rem;
-  font-size: 0.825rem;
+  font-size: 0.625rem;
 }
 .big_card--notice_content,
 .big_card--title_content {
-  margin: 1rem 2rem 0 2rem;
+  margin: 0.825rem 2rem 0 2rem;
   width: 85%;
 }
 
 .big_card--title_content {
   color: aliceblue;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .big_card--notice_content,
 .big_card--date_content {
   color: gray;
 }
 .big_card--notice_content {
-  font-size: 1.1rem;
+  font-size: 0.725rem;
   font-weight: 500;
 }

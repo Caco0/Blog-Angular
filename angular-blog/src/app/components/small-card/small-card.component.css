@@ -12,21 +12,21 @@
   width: 25%;
 }
 img {
-  margin: 2rem 0.825rem 0 0;
+  margin: 1.825rem 0.825rem 0 0;
   width: 100%;
   box-shadow: 8px -8px 10px 0px rgba(255, 255, 255, 0.26);
   -webkit-box-shadow: 8px -8px 10px 0px rgba(255, 255, 255, 0.26);
   -moz-box-shadow: 8px -8px 10px 0px rgba(255, 255, 255, 0.26);
 }
 .small_card--date_content {
-  font-size: 0.825rem;
+  font-size: 0.625rem;
   color: grey;
 }
 .small_card--title_content {
-  font-size: 2.2rem;
+  font-size: 1.2rem;
 }
 .small_card--notice_content {
-  font-size: 1.2rem;
+  font-size: 0.625rem;
   font-weight: 500;
   color: rgb(143, 142, 142);
 }

@@ -8,4 +8,9 @@
   img {
     box-shadow: 7px 4px 5px 0px rgba(255, 255, 255, 0.26);
   }
+  @media screen and (max-width: 425px) {
+    img {
+      margin: 0.825rem 1.625rem 0 2rem;
+    }
+  }
 }

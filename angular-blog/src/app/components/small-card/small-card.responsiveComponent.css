@@ -8,4 +8,26 @@
   img {
     min-width: 100px;
   }
+  @media screen and (max-width: 425px) {
+    .small_card--image {
+      max-width: 100%;
+      margin-right: 2rem;
+    }
+    .small_card--news {
+      margin: 0.825rem 1rem 0 1rem;
+    }
+    .small_card--title_content {
+      font-size: 0.825rem;
+    }
+    .small_card--date_content {
+      font-size: 0.625rem;
+      margin-bottom: 0.325rem;
+    }
+    img {
+      margin: 1rem 0.825rem 0 0;
+      box-shadow: 4px -4px 5px 0px rgba(255, 255, 255, 0.26);
+      -webkit-box-shadow: 4px -4px 5px 0px rgba(255, 255, 255, 0.26);
+      -moz-box-shadow: 4px -4px 5px 0px rgba(255, 255, 255, 0.26);
+    }
+  }
 }
