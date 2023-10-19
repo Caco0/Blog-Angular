@@ -1,0 +1,21 @@
+.container_content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 1rem;
+  width: 100%;
+}
+.content--cover {
+}
+.content--cover img {
+  width: 300px;
+  border-radius: 8px;
+}
+.content--title {
+  color: antiquewhite;
+}
+.content--appreciation p {
+  color: grey;
+  margin-top: 1rem;
+}
