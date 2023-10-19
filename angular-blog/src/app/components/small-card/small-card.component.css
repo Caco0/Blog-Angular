@@ -30,3 +30,6 @@ img {
   font-weight: 500;
   color: rgb(143, 142, 142);
 }
+.small_card--title_content a {
+  text-decoration: none;
+}

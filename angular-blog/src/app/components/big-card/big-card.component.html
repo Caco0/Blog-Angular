@@ -1,15 +1,18 @@
 <div class="container--big_card">
   <div class="big_card--image">
-    <img
-      src=" {{ photoCover }} "
-      alt="fotografia de pintura de barco ancorado na praia"
-    />
+    <a [routerLink]="['content', Id]">
+      <img
+        src=" {{ photoCover }} "
+        alt="fotografia de pintura de barco ancorado na praia"
+    /></a>
   </div>
   <div class="big_card--date">
     <p class="big_card--date_content">{{ cardDate }}</p>
   </div>
   <div class="big_card--title">
-    <h2 class="big_card--title_content">{{ cardTitle }}</h2>
+    <h2 class="big_card--title_content">
+      <a [routerLink]="['content', Id]">{{ cardTitle }}</a>
+    </h2>
   </div>
   <div class="big_card--notice">
     <p class="big_card--notice_content">

@@ -31,3 +31,6 @@ img {
   font-size: 0.725rem;
   font-weight: 500;
 }
+.big_card--title_content a {
+  text-decoration: none;
+}
